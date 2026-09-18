@@ -2,5 +2,11 @@
   "name": "y-d",
   "version": "0.1.0",
   "description": "A Vercel project",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
